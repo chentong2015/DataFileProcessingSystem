@@ -11,7 +11,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-// 大文件的快速处理器: 读取和修改文件, 输出文件结果
+// 大文件的流式处理器: 读取和修改文件, 输出文件结果
+// - 提取每个Item标签的ID
+// - 提取每个Item标签的Pattern标签
+// - 对Pattern标签格式转换
+// - 输出Item标签结果到文件中
 public class FastFileProcessor {
 
     private final TagMatcher uidMatcher;
