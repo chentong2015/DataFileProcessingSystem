@@ -1,6 +1,6 @@
-package org.example.counter;
+package counter;
 
-import org.example.model.TagMatcher;
+import model.TagMatcher;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

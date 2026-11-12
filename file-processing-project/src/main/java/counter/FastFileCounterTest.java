@@ -1,4 +1,4 @@
-package org.example.counter;
+package counter;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

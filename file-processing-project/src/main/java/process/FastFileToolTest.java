@@ -1,4 +1,4 @@
-package org.example.process;
+package process;
 
 import java.nio.charset.StandardCharsets;
 

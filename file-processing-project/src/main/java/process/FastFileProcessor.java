@@ -1,6 +1,6 @@
-package org.example.process;
+package process;
 
-import org.example.model.TagMatcher;
+import model.TagMatcher;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;

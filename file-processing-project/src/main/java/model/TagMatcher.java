@@ -1,4 +1,4 @@
-package org.example.model;
+package model;
 
 // 快速匹配特定字节组成的pattern字符串数据
 public class TagMatcher {

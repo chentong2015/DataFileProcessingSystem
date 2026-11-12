@@ -1,4 +1,4 @@
-package org.example.process;
+package process;
 
 import java.io.BufferedOutputStream;
 import java.io.Closeable;
