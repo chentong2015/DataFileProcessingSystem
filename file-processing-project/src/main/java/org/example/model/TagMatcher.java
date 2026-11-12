@@ -1,6 +1,6 @@
 package org.example.model;
 
-// 快速匹配大文件数据中是否有特定字节组成的pattern字符串
+// 快速匹配特定字节组成的pattern字符串数据
 public class TagMatcher {
 
     private final byte[] pattern;
@@ -10,7 +10,7 @@ public class TagMatcher {
         this.pattern = pattern;
     }
 
-    // 逐个字节一一匹配, 直到完整匹配pattern字节长度
+    // 逐个字节匹配, 直到完整匹配pattern字节长度
     public boolean match(byte b) {
         if (b == pattern[matchIndex]) {
             matchIndex++;

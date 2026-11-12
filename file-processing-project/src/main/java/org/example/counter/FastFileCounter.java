@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-// 持续从文件中流式读取Buffer数据, 循环处理字节
+// 大文件快速统计特定Pattern字符数据
 public class FastFileCounter {
 
     private final Path filepath;
@@ -23,7 +23,7 @@ public class FastFileCounter {
         }
     }
 
-    public int countRecordsByByte() throws IOException {
+    public int countPattern() throws IOException {
         int count = 0;
         TagMatcher matcher = new TagMatcher(pattern);
         byte[] buffer = new byte[BUFFER_SIZE];
