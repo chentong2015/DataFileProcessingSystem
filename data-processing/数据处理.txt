@@ -1,2 +1,16 @@
-Data Processing  实时(Real-Time)数据处理
-Batch Processing 带延迟(Latency)批数据处理
+TODO. 数据处理: 不仅是数据分析，是更广泛的概念
+通过一系列操作，对原始数据进行收集、整理、转换、分析和存储，使数据变得有用、有意义，支持决策或后续业务活动
+
+Data Collection	    数据收集	收集原始数据
+Data Cleaning	    数据清洗	删除错误、重复或缺失的数据
+Data Transformation	数据转换	将数据转换成需要的格式
+Data Analysis	    数据分析	从数据中提取有价值的信息
+Data Storage	    数据存储	保存和管理处理后的数据
+Data Output	        数据输出	生成报表、结果或其他信息
+
+TODO. 数据处理实现系统
+Batch Processing 批量处理：一次性处理大量数据
+Real-time Processing 实时处理：数据产生后立即处理
+Automated Data Processing 自动化数据处理：通过程序自动处理数据
+Data Processing System 数据处理系统：负责接收、处理、存储和输出数据的系统
+Data Processing Pipeline 数据处理管道: 读取数据，转换再流式处理
